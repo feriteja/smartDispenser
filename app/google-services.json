@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "562701723956",
+    "firebase_url": "https://smartdispenser-2a6a4.firebaseio.com",
+    "project_id": "smartdispenser-2a6a4",
+    "storage_bucket": "smartdispenser-2a6a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562701723956:android:16c7363b7ba5470822dd61",
+        "android_client_info": {
+          "package_name": "com.example.smartdispenserv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562701723956-u9jsmgdck0ii7fvk0oibnsgkamqq35q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartdispenserv1",
+            "certificate_hash": "b9418348620ec95103e0f159c8979dd1e75ddaad"
+          }
+        },
+        {
+          "client_id": "562701723956-i3a3ge66sp5b33t8vqacp5r0ch33kskl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmAPER4puOqr7oa7npHjoqndUgeXGw1mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562701723956-i3a3ge66sp5b33t8vqacp5r0ch33kskl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

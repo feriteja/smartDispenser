@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="240dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="7dp"
+    android:layout_margin="15dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
+
+       <ImageButton
+           android:layout_width="25dp"
+           android:layout_height="25dp"
+           android:layout_gravity="right"
+           android:layout_marginEnd="5dp"
+           android:background="@drawable/substract_icon"
+           android:id="@+id/listDelete"/>
+
+       <me.itangqi.waveloadingview.WaveLoadingView
+
+           android:id="@+id/waveLoadingViewAdmin"
+           android:layout_gravity="center"
+           android:layout_width="90dp"
+           android:layout_height="150dp"
+           app:wlv_borderColor="@color/airbiru"
+           app:wlv_borderWidth="15dp"
+           app:wlv_shapeType="rectangle"
+           app:wlv_round_rectangle="true"
+           app:wlv_triangle_direction="east"
+
+
+           app:wlv_titleCenterStrokeColor="@android:color/holo_blue_dark"
+           app:wlv_titleCenterStrokeWidth="3dp"
+           app:wlv_titleCenterColor="@android:color/white"
+           app:wlv_titleCenterSize="15sp"
+
+           app:wlv_titleTopStrokeColor="@android:color/holo_blue_dark"
+           app:wlv_titleTopStrokeWidth="3dp"
+           app:wlv_titleTopColor="@android:color/white"
+           app:wlv_titleTopSize="15sp"
+
+           app:wlv_titleBottomStrokeColor="@android:color/holo_blue_dark"
+           app:wlv_titleBottomStrokeWidth="3dp"
+           app:wlv_titleBottomColor="@android:color/white"
+           app:wlv_titleBottomSize="15sp"
+
+
+           app:wlv_waveAmplitude="25"
+           app:wlv_waveColor="@color/airbiru"/>
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginTop="5dp"
+           android:text="NAMA GEDUNG"
+           android:id="@+id/userNama"
+           android:textSize="18dp"
+           android:textStyle="bold"/>
+
+   </LinearLayout>
+
+</android.support.v7.widget.CardView>

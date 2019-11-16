@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+            <me.itangqi.waveloadingview.WaveLoadingView
+                android:id="@+id/jumlahairwave"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:elevation="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:wlv_borderColor="@color/airbiru"
+                app:wlv_borderWidth="15dp"
+                app:wlv_shapeType="rectangle"
+                app:wlv_round_rectangle="true"
+                app:wlv_triangle_direction="east"
+                app:wlv_progressValue="0"
+
+                app:wlv_titleCenterStrokeColor="@android:color/holo_blue_dark"
+                app:wlv_titleCenterStrokeWidth="3dp"
+                app:wlv_titleCenterColor="@android:color/white"
+                app:wlv_titleCenterSize="25sp"
+
+                app:wlv_titleTopStrokeColor="@android:color/holo_blue_dark"
+                app:wlv_titleTopStrokeWidth="3dp"
+                app:wlv_titleTopColor="@android:color/white"
+                app:wlv_titleTopSize="25sp"
+
+                app:wlv_titleBottomStrokeColor="@android:color/holo_blue_dark"
+                app:wlv_titleBottomStrokeWidth="3dp"
+                app:wlv_titleBottomColor="@android:color/white"
+                app:wlv_titleBottomSize="25sp"
+
+
+                app:wlv_waveAmplitude="25"
+                app:wlv_waveColor="@color/airbiru" />
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/airReqUser"
+                android:min="0"
+                android:max="100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progressTint="@color/airbiru"
+                android:thumbTint="@color/airbiru"
+                android:layout_below="@+id/jumlahairwave"
+                android:layout_marginTop="30dp"/>
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:elevation="8dp"
+
+        app:fab_addButtonColorNormal="@color/airbiru"
+        app:fab_addButtonColorPressed="#0E608B"
+        app:fab_addButtonPlusIconColor="#fff"
+        app:fab_labelStyle="@style/customFab">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_hotWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_size="mini"
+            app:fab_colorNormal="#fff"
+            app:fab_colorPressed="#C4C4C4"
+            app:fab_icon="@drawable/ic_hot_water"
+            app:fab_title="Hot Water"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_warmWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_size="mini"
+            app:fab_colorNormal="#fff"
+            app:fab_colorPressed="#C4C4C4"
+            app:fab_icon="@drawable/ic_warm_water"
+            app:fab_title="Warm Water"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_normalWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_size="mini"
+            app:fab_colorNormal="#fff"
+            app:fab_colorPressed="#C4C4C4"
+            app:fab_icon="@drawable/ic_normal_water"
+            app:fab_title="Normal Water"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>>
+
+
+</RelativeLayout>

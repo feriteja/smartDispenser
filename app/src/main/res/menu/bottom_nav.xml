@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_chart"
+        android:icon="@drawable/ic_chart"
+        android:title="Chart" />
+    <item
+        android:id="@+id/nav_logoutUser"
+        android:icon="@drawable/log_out"
+        android:title="Log out" />
+
+
+</menu>
